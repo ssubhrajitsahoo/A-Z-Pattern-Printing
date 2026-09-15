@@ -1,6 +1,5 @@
 # A-Z-Pattern-Printing
-This repository helps you print A–Z patterns in different styles and also supports logical thinking and problem‑solving.
-
+This repository helps you print A–Z patterns, from basic to advanced levels, in different styles while enhancing logical thinking and problem‑solving skills.
 # A-Pattern
 ## Basic-A
 <img width="952" height="701" alt="image" src="https://github.com/user-attachments/assets/735284b8-14b2-4f0d-b5d0-0c4f9be681c6" />
