@@ -1,1 +1,72 @@
+#include <stdio.h>
 
+// Basic Level character 'A' Pattern
+void basicLevelPatternA(int rowColNumber)
+{
+    for (int row = 0; row < rowColNumber; row++)
+    {
+        for (int col = 0; col < rowColNumber; col++)
+        {
+            if (row == 0 || col == 0 || col == rowColNumber - 1 || row == rowColNumber / 2)
+            {
+                printf("*");
+            }
+            else
+            {
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+}
+
+// medium Level character 'A' Pattern
+/*
+void mediumLevelPatternA(int rowColumnNumber)
+{
+    for (int row = 0; row < rowColumnNumber; row++)
+    {
+        for (int col = 0; col < rowColumnNumber; col++)
+        {
+            if (row==0 && col!=0 && col!=rowColumnNumber-1)
+            {
+                printf("*");
+            }
+            else if(row > 0 && (col==0 || col==rowColumnNumber-1)){
+                printf("*");
+            }
+            else if(row == rowColumnNumber/2){
+                printf("*");
+            }
+            else
+            {
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+}
+*/
+
+// Advance Level character 'A' Pattern
+
+
+int main()
+{
+    int rowColNumber;
+    printf("Enter a rowColNumber:");
+    scanf("%d", &rowColNumber);
+    basicLevelPatternA(rowColNumber);
+    // mediumLevelPatternA(int rowColumnNumber);
+    return 0;
+}
+
+// if (row == 0 || col == 0 || col == rowColNumber - 1 || row == rowColNumber / 2)
+// You can also write it like:
+/* 
+if(row == 0){printf("*");}
+else if(col == 0){printf("*");}
+else if(col == rowColNumber-1){printf("*");}
+else if(row == rowColNumber / 2){printf("*");}
+else(){printf(" ");}
+*/
